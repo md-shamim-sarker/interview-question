@@ -1,0 +1,13 @@
+header {
+    height: 60vh;
+    margin-top: 0;
+    background-image: url('../image/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 27vh;
+    }
+}
