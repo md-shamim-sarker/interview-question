@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Tell the difference Between Primitive and Non-Primitive Data Types in JavaScript.",
+        "answer": "answer"
+    },
+    {
+        "question": "What are the Truthy and Falsy values? Give me some examples.", 
+        "answer": "answer"
+    },
+    {
+        "question": "What is the difference between null and undefined?", 
+        "answer": "answer"
+    },
+    {
+        "question": "What are the differences between double equal (==) and triple equal (===)?", 
+        "answer": "answer"
+    },
+    {
+        "question": "What is scope in JavaScript?", 
+        "answer": "answer"
+    },
+    {
+        "question": "Define block scope and global scope.", 
+        "answer": "answer"
+    },
+    {
+        "question": "What is hoisting in JavaScript?", 
+        "answer": "answer"
+    },
+    {
+        "question": "How to use the JavaScript callback function?", 
+        "answer": "answer"
+    },
+    {
+        "question": "Explain closure in JavaScript", 
+        "answer": "answer"
+    },
+    {
+        "question": "Explain passed by value and passed by reference.", 
+        "answer": "answer"
+    },
+    {
+        "question": "question", 
+        "answer": "answer"
+    },
+    {
+        "question": "question", 
+        "answer": "answer"
+    }
+]
