@@ -1,6 +1,6 @@
-const file = "../json/qa.json";
+const url = "../json/qa.json";
 
-fetch(file)
+fetch(url)
     .then(response => response.json())
     .then(data => display(data))
     .catch(error => console.log(error));
