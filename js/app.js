@@ -27,7 +27,6 @@ const display = data => {
     // filtered display function
     const displayeData = topic => {
         const filterElement = data.filter(e => e.topic === topic);
-        console.log(filterElement);
         const container = document.getElementById('accordionFlush');
         document.getElementById('accordionFlush').innerText = '';
         for(let i = 0; i < filterElement.length; i++) {
@@ -82,7 +81,18 @@ const display = data => {
     displayeDataAll();
 
     // display by filtered
-    document.getElementById('filter-btn').addEventListener('click', () => {
+    // select option handler
+    document.getElementById('inputGroupSelect').addEventListener('click', () => {
+        const selectValue = document.getElementById('inputGroupSelect').value;
+        if(selectValue === 'all') {
+            displayeDataAll();
+        } else {
+            displayeData(selectValue);
+        }
+    });
+
+    // button handler
+    document.querySelector("#filter-btn").addEventListener('click', () => {
         const selectValue = document.getElementById('inputGroupSelect').value;
         if(selectValue === 'all') {
             displayeDataAll();
