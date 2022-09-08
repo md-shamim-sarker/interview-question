@@ -171,57 +171,57 @@
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "What are some of the main issues with HTML5?",
+        "answer": "While HTML5 is an effective markup language, it can still pose problems to web developers. Some challenges include:<ul><li>New security threats associated with local storage</li><li>Advanced features are not necessarily supported by all browsers</li><li>Mobile compatibility requires additional coding</li><li>Its limited access to hardware APIs</li><li>Its steep learning curve</li></ul>"
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "What are the best audio and video formats to use in HTML5?",
+        "answer": "HTML5 supports MP3, Ogg, WebM, ADTS, FLAC, and WAV audio formats. A WAV file is uncompressed and typically large, making it unsuitable. Each browser supports its own set of audio formats; MP3 is the only audio format that is currently compatible with all major browsers.<br>In terms of video, HTML5 supports MP4, WebM, and Ogg formats. While MP4 is generally considered the recommended video format, not all browsers support it natively due to licensing issues. In these cases, WebM can be used as an alternative."
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "How can HTML5 be used for data storage purposes?",
+        "answer": "While HTML5 doesn’t include data storage functionality as part of its native specification, it’s possible to store data through the integration of data-related APIs. These can be used with HTML5 documents to manipulate client-side databases with SQL.<br>The two HTML5 APIs for data storage and querying are: <ul><li><strong>IndexedDB API</strong>, a standard maintained by the World Wide Web Consortium</li><li><strong>Web SQL Database</strong>, now considered deprecated</li></ul>"
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "What is microdata in HTML5 and how is it created?",
+        "answer": "<p>Microdata allows developers to define the custom semantics of elements and embed custom properties within the web page.&nbsp;</p><p>It’s used to provide browsers and search engines with more information about the contents of the web page so that they can display results that best match the user’s search intent.</p><p>Microdata is created using the &lt;itemscope&gt; element. Information about the item is then specified using the &lt;itemprop&gt; element.</p>"
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "How is the Geolocation API implemented in HTML5?",
+        "answer": "<p>The HTML5 Geolocation API uses the device’s GPS, WiFi or mobile signal to triangulate the user’s latitude and longitude coordinates. The user must give their permission before geolocation services can be used on their device.</p><p>From the developer’s point of view, the Geolocation API is implemented firstly by calling the geolocation.navigator object. Three methods are then used by the API to handle location data:</p><ol><li><strong>getCurrentPosition</strong> identifies the device’s current location and returns a position object withdata</li><li><strong>watchPosition</strong> returns a value whenever the device location changes</li><li><strong>clearWatch</strong> cancels the previous watchPosition call</li></ol>"
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "What are some of the key global attributes in HTML5?",
+        "answer": "<p>Global attributes are attributes that can be applied to all HTML5 elements. Some of the most important global attributes are:</p><ul><li><strong>accesskey</strong>, used to specify a keyboard shortcut for an element</li><li><strong>class</strong>, used to assign one or more class names to an element</li><li><strong>dir</strong>, used to specify the base direction of the element’s text</li><li><strong>data-*</strong>, used to store custom data specific to the web page&nbsp;</li><li><strong>contenteditable</strong>, used to indicate whether the content is editable or not</li></ul>"
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "What is the role of the WebSocket API in HTML5?",
+        "answer": "The WebSocket API facilitates two-way, interactive communication between the web browser and the web server. This enables a real-time, event-driven data transfer to and from the server. It’s a very popular API that brings speed, security, and flexibility."
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "When should &lt;div&gt; tags be used in HTML5?",
+        "answer": "<p>HTML5 introduces a number of new tags (such as &lt;aside&gt;, &lt;footer&gt;, and &lt;header&gt;) that take the place that &lt;div&gt; has traditionally occupied in previous HTML versions.</p><p>However, &lt;div&gt; should still be used in HTML5 when no other semantically appropriate element is available. Generally, this will be for styling purposes, such as wrapping the web page or introducing the opening paragraph.&nbsp;</p>"
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "What is the role of the Web Workers API in HTML5?",
+        "answer": "The Web Workers API makes it possible to run scripts independently in a background thread, separate from the main execution thread of the HTML5 document. This allows developers to continue working on the page without affecting its performance, while scripts run in the background."
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "How can the performance of an HTML5 web page be measured?",
+        "answer": "<p>Measuring performance is an important step for developers to gauge the competitiveness of their web page and can be achieved using APIs and extensions. Popular solutions include the Navigation Timing API and the User Timing API.&nbsp;</p><p>These tools provide insights into specific performance metrics such as:</p><ul><li><strong>Page load speed:</strong> The time it takes for the full page to load</li><li><strong>Time to interact:</strong> The time it takes for the user to be able to interact with the page</li><li><strong>Bounce rate:</strong> The proportion of users that leave the page without interacting with it</li><li><strong>Error rate:</strong> The proportion of visits to the page resulting in errors</li><li><strong>Conversion rate:</strong> The proportion of users that complete a specified action, such as subscribing to a mailing list</li></ul>"
     },
     {
         "topic": "advanced HTML5",
-        "question": "",
-        "answer": ""
+        "question": "How can HTML5 web pages be optimized?",
+        "answer": "<p>If a web page is performing poorly, developers have several HTML5 optimization strategies at their disposal:</p><ul><li>Compress CPU-intensive assets such as high-resolution images</li><li>Bundle code into single files to reduce the number of HTTP requests</li><li>Minify code to remove all unnecessary whitespace</li><li>Offload operations to the Graphics Processing Unit (GPU)</li><li>Use CSS3 for animations and transitions</li></ul>"
     }
 ]
