@@ -13,13 +13,29 @@
 </head>
 
 <body class="bg-secondary bg-opacity-25">
+    <!-- Header Section Start -->
     <header class="text-center d-flex justify-content-center align-items-center">
         <h1 class="text-white">Interview Questions Collection</h1>
     </header>
+    <!-- Header Section End -->
+
+    <!-- Main Section Start -->
+
+    <!-- Filter Section Start -->
+    <div class="input-group container mt-5 w-75">
+        <select class="form-select text-capitalize" id="inputGroupSelect" aria-label="Example select with button addon">
+            <option selected value="all">All</option>
+        </select>
+        <button id="filter-btn" class="btn btn-outline-secondary" type="button">Filter</button>
+    </div>
+    <!-- Filter Section End -->
     <main class="container my-5">
         <div class="accordion accordion-flush" id="accordionFlush">
         </div>
     </main>
+    <!-- Main Section End -->
+
+    <!-- Footer Section Start -->
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
@@ -30,7 +46,9 @@
         </ul>
         <p class="text-center text-muted">&COPY; Md. Shamim Sarker | 2022</p>
     </footer>
-    <!-- Script -->
+    <!-- Footer Section End -->
+
+    <!-- All Scripts -->
     <script src="./js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

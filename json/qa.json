@@ -1,42 +1,87 @@
 [
     {
-        "question": "Tell the difference Between Primitive and Non-Primitive Data Types in JavaScript.",
+		"topic": "javascript basic",
+		"question": "Tell the difference Between Primitive and Non-Primitive Data Types in JavaScript.",
         "answer": "The Primitive Data types in JavaScript include Number, String, Boolean, Undefined, Null and Symbol. The Non-Primitive data type has only one member i.e. the Object."
     },
     {
-        "question": "What are the Truthy and Falsy values? Give me some examples.", 
+		"topic": "javascript basic",
+		"question": "What are the Truthy and Falsy values? Give me some examples.", 
         "answer": "In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. That is, all values are truthy except false , 0 , -0 , 0n , \"\" , null , undefined , and NaN . JavaScript uses type coercion in Boolean contexts."
     },
     {
-        "question": "What is the difference between null and undefined?", 
+		"topic": "javascript basic",
+		"question": "What is the difference between null and undefined?", 
         "answer": "undefined is a variable that refers to something that doesn't exist, and the variable isn't defined to be anything. null is a variable that is defined but is missing a value."
     },
     {
-        "question": "What are the differences between double equal (==) and triple equal (===)?", 
+		"topic": "javascript basic",
+		"question": "What are the differences between double equal (==) and triple equal (===)?", 
         "answer": "== in JavaScript is used for comparing two variables, but it ignores the datatype of variable. === is used for comparing two variables, but this operator also checks datatype and compares two values. Checks the equality of two operands without considering their type. Compares equality of two operands with their types."
     },
     {
-        "question": "What is scope in JavaScript?", 
+		"topic": "javascript basic",
+		"question": "What is scope in JavaScript?", 
         "answer": "Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are local and global: Global variables are those declared outside of a block. Local variables are those declared inside of a block."
     },
     {
-        "question": "Define block scope and global scope.", 
+        "topic": "javascript basic",
+		"question": "Define block scope and global scope.", 
         "answer": "A block is a piece of code inside a set of curly braces {} and groups code statements together. An example of a block could be a function, like this: The Global scope. A variable exists inside or outside a block. If a variable is declared outside all functions or curly braces ({}), it exists in the global scope."
     },
     {
-        "question": "What is hoisting in JavaScript?", 
+        "topic": "javascript basic",
+		"question": "What is hoisting in JavaScript?", 
         "answer": "JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. Hoisting allows functions to be safely used in code before they are declared."
     },
     {
-        "question": "How to use the JavaScript callback function?", 
+        "topic": "javascript basic",
+		"question": "How to use the JavaScript callback function?", 
         "answer": "A JavaScript callback is a function which is to be executed after another function has finished execution. A more formal definition would be - Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function."
     },
     {
-        "question": "Explain closure in JavaScript", 
+        "topic": "javascript basic",
+		"question": "Explain closure in JavaScript", 
         "answer": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function."
     },
     {
-        "question": "Explain passed by value and passed by reference.", 
+        "topic": "javascript basic",
+		"question": "Explain passed by value and passed by reference.", 
         "answer": "The difference between pass-by-reference and pass-by-value is that modifications made to arguments passed in by reference in the called function have effect in the calling function, whereas modifications made to arguments passed in by value in the called function can not affect the calling function."
+    },
+    {
+        "topic": "javascript API",
+		"question": "Question", 
+        "answer": "Answer"
+    },
+    {
+        "topic": "javascript dom",
+		"question": "Question", 
+        "answer": "Answer"
+    },
+    {
+        "topic": "html",
+		"question": "Question", 
+        "answer": "Answer"
+    },
+    {
+        "topic": "css",
+		"question": "Question", 
+        "answer": "Answer"
+    },
+    {
+        "topic": "bootstrap",
+		"question": "Question", 
+        "answer": "Answer"
+    },
+    {
+        "topic": "tailwind",
+		"question": "Question", 
+        "answer": "Answer"
+    },
+    {
+        "topic": "react",
+		"question": "Question", 
+        "answer": "Answer"
     }
 ]
