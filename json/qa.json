@@ -50,22 +50,22 @@
         "answer": "The difference between pass-by-reference and pass-by-value is that modifications made to arguments passed in by reference in the called function have effect in the calling function, whereas modifications made to arguments passed in by value in the called function can not affect the calling function."
     },
     {
-        "topic": "javascript API",
+        "topic": "javascript API (application programming interface)",
 		"question": "Question", 
         "answer": "Answer"
     },
     {
-        "topic": "javascript dom",
+        "topic": "javascript DOM (document object model)",
 		"question": "Question", 
         "answer": "Answer"
     },
     {
-        "topic": "html",
+        "topic": "HTML (hyper text markup language)",
 		"question": "Question", 
         "answer": "Answer"
     },
     {
-        "topic": "css",
+        "topic": "CSS (cascading style sheets)",
 		"question": "Question", 
         "answer": "Answer"
     },
