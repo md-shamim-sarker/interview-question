@@ -235,108 +235,103 @@
         "answer": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function."
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What is event bubble?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What are function declaration, function expression and   arrow function?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What are the differences among var, let and constant?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "How does browser runs JavaScript?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "How does Browser works?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What is the difference between HTTP and HTTPS?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "Tell me something about JS engine V8 internal mechanism.",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What is re-render in Browser?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What is event loop in JavaScript?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "If JavaScript is single threaded, how does it handle asynchronous call?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What is SSL?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "Differences between setTimeOut and setInterval.",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What is Regular Expression?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What is the difference between an alert box and a confirmation box?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What are JavaScript Cookies?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "Differences between localStorage and sessionStorage?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What should you use cookie or local storage or session storage?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "Tell me 2 differences between DOM vs BOM.",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "Can you discuss the type of browser API?",
         "answer": ""
     },
     {
-        "topic": "javascript DOM",
+        "topic": "Foisal Vai",
         "question": "What is JavaScript in one line?",
-        "answer": ""
-    },
-    {
-        "topic": "",
-        "question": "",
         "answer": ""
     }
 ]
