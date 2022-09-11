@@ -235,103 +235,133 @@
         "answer": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function."
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What is event bubble?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What are function declaration, function expression and   arrow function?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What are the differences among var, let and constant?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "How does browser runs JavaScript?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "How does Browser works?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What is the difference between HTTP and HTTPS?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "Tell me something about JS engine V8 internal mechanism.",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What is re-render in Browser?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What is event loop in JavaScript?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "If JavaScript is single threaded, how does it handle asynchronous call?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What is SSL?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "Differences between setTimeOut and setInterval.",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What is Regular Expression?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What is the difference between an alert box and a confirmation box?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What are JavaScript Cookies?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "Differences between localStorage and sessionStorage?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What should you use cookie or local storage or session storage?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "Tell me 2 differences between DOM vs BOM.",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "Can you discuss the type of browser API?",
         "answer": ""
     },
     {
-        "topic": "Foisal Vai",
+        "topic": "javascript basic",
         "question": "What is JavaScript in one line?",
+        "answer": ""
+    },
+    {
+        "topic": "javascript basic",
+        "question": "What is a call stack?",
+        "answer": ""
+    },
+    {
+        "topic": "javascript basic",
+        "question": "Tell us about Try-catch?",
+        "answer": ""
+    },
+    {
+        "topic": "javascript basic",
+        "question": "Refere some console APIs.",
+        "answer": ""
+    },
+    {
+        "topic": "javascript basic",
+        "question": "What is syntax error?",
+        "answer": ""
+    },
+    {
+        "topic": "javascript basic",
+        "question": "When do we get reference error?",
+        "answer": ""
+    },
+    {
+        "topic": "javascript basic",
+        "question": "What is wrong with the code: var foo; console.log(foo.bar); (a) What type of error will the code generate? (b) What is the correct way to write the code?",
         "answer": ""
     }
 ]

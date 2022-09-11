@@ -6,7 +6,7 @@ fetch(url)
     .catch(error => console.log(error));
 
 const display = data => {
-
+    console.table(data);
     // topic array for select option and remove duplication
     const topicArray = [];
     data.forEach(element => {
@@ -24,7 +24,7 @@ const display = data => {
         container.appendChild(option);
     });
 
-    // filtered display function
+    // display filtered
     const displayeData = topic => {
         const filterElement = data.filter(e => e.topic === topic);
         const container = document.getElementById('accordionFlush');
@@ -51,7 +51,7 @@ const display = data => {
         }
     };
 
-    // filtered display function
+    // display all
     const displayeDataAll = () => {
         const container = document.getElementById('accordionFlush');
         document.getElementById('accordionFlush').innerText = '';
