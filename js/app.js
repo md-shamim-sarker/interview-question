@@ -1,5 +1,5 @@
 // fetch data from local api
-const url = "https://raw.githubusercontent.com/shamimspro/interview-question/main/json/qa.json";
+const url = "https://raw.githubusercontent.com/shamimspro/interview-question-api/main/qa.json";
 fetch(url)
     .then(response => response.json())
     .then(data => display(data))
