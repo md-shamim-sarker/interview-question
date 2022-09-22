@@ -1,365 +1,438 @@
 [
     {
+        "id": 1,
         "topic": "javascript basic",
         "question": "Tell the difference Between Primitive and Non-Primitive Data Types in JavaScript.",
         "answer": "The Primitive Data types in JavaScript include Number, String, Boolean, Undefined, Null and Symbol. The Non-Primitive data type has only one member i.e. the Object."
     },
     {
+        "id": 2,
         "topic": "javascript basic",
         "question": "What are the Truthy and Falsy values? Give me some examples.",
         "answer": "In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. That is, all values are truthy except false , 0 , -0 , 0n , \"\" , null , undefined , and NaN . JavaScript uses type coercion in Boolean contexts."
     },
     {
+        "id": 3,
         "topic": "javascript basic",
         "question": "What is the difference between null and undefined?",
         "answer": "undefined is a variable that refers to something that doesn't exist, and the variable isn't defined to be anything. null is a variable that is defined but is missing a value."
     },
     {
+        "id": 4,
         "topic": "javascript basic",
         "question": "What are the differences between double equal (==) and triple equal (===)?",
         "answer": "== in JavaScript is used for comparing two variables, but it ignores the datatype of variable. === is used for comparing two variables, but this operator also checks datatype and compares two values. Checks the equality of two operands without considering their type. Compares equality of two operands with their types."
     },
     {
+        "id": 5,
         "topic": "javascript basic",
         "question": "What is scope in JavaScript?",
         "answer": "Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are local and global: Global variables are those declared outside of a block. Local variables are those declared inside of a block."
     },
     {
+        "id": 6,
         "topic": "javascript basic",
         "question": "Define block scope and global scope.",
         "answer": "A block is a piece of code inside a set of curly braces {} and groups code statements together. An example of a block could be a function, like this: The Global scope. A variable exists inside or outside a block. If a variable is declared outside all functions or curly braces ({}), it exists in the global scope."
     },
     {
+        "id": 7,
         "topic": "javascript basic",
         "question": "What is hoisting in JavaScript?",
         "answer": "JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. Hoisting allows functions to be safely used in code before they are declared."
     },
     {
+        "id": 8,
         "topic": "javascript basic",
         "question": "How to use the JavaScript callback function?",
         "answer": "A JavaScript callback is a function which is to be executed after another function has finished execution. A more formal definition would be - Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function."
     },
     {
+        "id": 9,
         "topic": "javascript basic",
         "question": "Explain closure in JavaScript",
         "answer": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function."
     },
     {
+        "id": 10,
         "topic": "javascript basic",
         "question": "Explain passed by value and passed by reference.",
         "answer": "The difference between pass-by-reference and pass-by-value is that modifications made to arguments passed in by reference in the called function have effect in the calling function, whereas modifications made to arguments passed in by value in the called function can not affect the calling function."
     },
     {
+        "id": 11,
         "topic": "beginner HTML5",
         "question": "What is HTML5?",
         "answer": "HTML5 is a markup language used for structuring and displaying content on the internet. This includes animations, audio, images, and text, among many other things, and all without the need for additional software. HTML5 is the most recent and most advanced version of HTML."
     },
     {
+        "id": 12,
         "topic": "beginner HTML5",
         "question": "What are the key differences between HTML and HTML5?",
         "answer": "HTML5 has made several steps forward compared to its previous versions. Notable changes include: <ul><li>HTML5 supports video, graphics, and audio, whereas HTML only supports them through third-party extensions</li><li>HTML5 is mobile-friendly, whereas HTML is not</li><li>HTML5 is compatible with all major web browsers, whereas HTML is not</li><li>HTML5 offers several options for local storage, whereas HTML only offers cookies</li><li>HTML5 supports multi-threading, whereas HTML operates only in one thread</li></ul>"
     },
     {
+        "id": 13,
         "topic": "beginner HTML5",
         "question": "What are tags in HTML5 and how many are required to make a basic web page?",
         "answer": "Tags are pieces of HTML5 code used to define the structure of the page. There are more than 100 tags in HTML5, with each one serving a unique purpose, such as positioning text or supporting audio.<br><br>In their most basic form, most web pages will need around four tags to get started. These are <html>, <head>, <title>, and <body>."
     },
     {
+        "id": 14,
         "topic": "beginner HTML5",
         "question": "What are elements in HTML5?",
         "answer": "Elements are components of HTML5 code that instruct the web browser how to structure and interpret the HTML5 document. Typically, they encompass an opening tag, a closing tag, and specified content between the opening and closing tags, depending on the type of tag used."
     },
     {
+        "id": 15,
         "topic": "beginner HTML5",
         "question": "What are attributes in HTML5?",
         "answer": "Attributes are special properties or characteristics used within an element to modify its behavior. For example, attributes can be used to specify the dimensions or positioning values of an image. Attributes are specified within the opening tag and must be enclosed in quotation marks."
     },
     {
+        "id": 16,
         "topic": "beginner HTML5",
         "question": "What is CSS and what is its relationship with HTML5?",
         "answer": "CSS, or Cascading Style Sheet, is a style sheet language used with HTML5 to format and display the elements specified by the markup language for the end user. While HTML5 defines the structure of a page, CSS specifies the document’s style, including page layout, colors, and fonts."
     },
     {
+        "id": 17,
         "topic": "beginner HTML5",
         "question": "What is the role of drag and drop in HTML5?",
         "answer": "Drag and drop is a user interface tool used to copy, reorder, and delete items with the cursor. It’s new to HTML5 and helps save a significant amount of time and effort while coding. Once an element’s ‘draggable’ attribute is set to true, it can be dragged and dropped with the mouse."
     },
     {
+        "id": 18,
         "topic": "beginner HTML5",
         "question": "What are input elements in HTML5?",
         "answer": "Input elements are used to create interactive controls that receive and process information from the user. For example, inputs could be used to process login details, collect customer feedback, or display a form."
     },
     {
+        "id": 19,
         "topic": "beginner HTML5",
         "question": " What is meant by web storage in HTML5?",
         "answer": "Web storage refers to HTML5’s new storage features. Previous HTML versions relied on cookies for storage in the server, but web storage now means data can be stored locally within the user’s browser. Web storage also offers a larger storage limit and is more secure."
     },
     {
+        "id": 20,
         "topic": "beginner HTML5",
         "question": "How do you link to another web page using HTML5?",
         "answer": "The anchor tag, or <a> tag in code, is used with the ‘href’ attribute to link to other web pages. The URL and linked text are both included in the element."
     },
     {
+        "id": 21,
         "topic": "beginner HTML5",
         "question": "What are the three types of lists in HTML5?",
         "answer": "The three types of HTML5 lists are: <br><ul><li><b>Ordered list</b>, which is used to group related items in a specific order</li><li><b>Unordered list</b>, which is used to group related items in no particular order</li><li><b>Description list</b>, which is used to group terms and their descriptions</li></ul>"
     },
     {
+        "id": 22,
         "topic": "beginner HTML5",
         "question": "What are the key HTML5 page structure elements?",
         "answer": "The most important HTML5 structure elements are: <br><ul><li><b>header</b>, containing the header or top of the page</li><li><b>footer</b>, containing the footer or bottom of the page</li><li><b>section</b>, containing one section that is thematically similar to other sections</li><li><b>article</b>, containing standalone content</li><li><b>nav</b>, containing the navigation functionality of the page</li></ul>"
     },
     {
+        "id": 23,
         "topic": "intermediate HTML5",
         "question": "What are the key benefits of HTML5?",
         "answer": "HTML5 improves on its previous versions in a multitude of ways. Among its biggest strengths we have HTML5’s: <br><ul><li>Compatibility with all web browsers and devices</li><li>Cleaner code for developers</li><li>Native support for multimedia content</li><li>Quicker load times due to offline storage cache</li><li>Introduction of geolocation</li></ul>"
     },
     {
+        "id": 24,
         "topic": "intermediate HTML5",
         "question": "What is the role of formatting tags in HTML5?",
         "answer": "Formatting tags allow text to be stylized in HTML5 without the need for CSS. There are a number of HTML5 formatting tags, and the most popular ones include: <br> <ul><li><b>b</b> - used to make text bold</li><li><b>i</b> - used to italicize text</li><li><b>u</b> - used to underline text</li><li><b>mark</b> - used to highlight text</li><li><b>strong</b> - used to mark text as important</li></ul>"
     },
     {
+        "id": 25,
         "topic": "intermediate HTML5",
         "question": "What types of graphics are supported by HTML5?",
         "answer": "Unlike previous versions, HTML5 offers inbuilt graphics features. The two types of graphics supported by HTML5 are: <br><ul><li><b>SVG</b>(Scalable Vector Graphics), used to create vector-based graphics, such as diagrams and icons</li><li><b>Canvas</b>, used to draw graphics, such as shapes</li></ul>"
     },
     {
+        "id": 26,
         "topic": "intermediate HTML5",
         "question": "What is new about the relationship between the header and h6 tags in HTML5?",
         "answer": "The <b>header</b> tag is used to design the header of a web page and can contain a range of elements including text, logos, or a navigation bar. <br> The <b>h1</b> tag is the textual part of the header and is used to specify the most important section of a piece of content. It’s often used alongside other header tags (through to <b>h6</b>) to format and prioritize content sections."
     },
     {
+        "id": 27,
         "topic": "intermediate HTML5",
         "question": "What are some of the new input types in HTML5?",
         "answer": "HTML5 introduces several new input types to create a more interactive user experience. The new input types include: <br><ul><li><b>Date</b>, used to select a date from a drop-down calendar</li><li><b>Time</b>, used to enter a time</li><li><b>Email</b>, used to enter an email address</li><li><b>Tel</b>, used to enter a telephone number with a specific pattern</li><li><b>Color</b>, used to select a color from a color picker</li><li><b>Range</b>, used to select a range of values on a slider</li></ul>"
     },
     {
+        "id": 28,
         "topic": "intermediate HTML5",
         "question": "What are image maps in HTML5?",
         "answer": "Image maps are images with several clickable areas that link to different web pages. They use the <b>map</b> and <b>area</b> tags. Coordinates are specified to segment the image into different areas and then relevant links are applied."
     },
     {
+        "id": 29,
         "topic": "intermediate HTML5",
         "question": "What are some of the most important APIs in HTML5?",
         "answer": "HTML5 supports a wide range of APIs. Some of the most popular ones include:<ul><li><b>Geolocation API,</b> used to identify the user’s location</li><li><b>Web Speech API,</b> which provides speech recognition functionality</li><li><b>Clipboard API,</b> which provides copy, cut, and paste functionality</li><li><b>History API,</b> which provides access to the browser navigation history</li><li><b>Web Notifications API,</b> used to send web-based notifications to users</li></ul>"
     },
     {
+        "id": 30,
         "topic": "intermediate HTML5",
         "question": "How can a copyright symbol be added to the webpage using HTML5?",
         "answer": "The ‘&copy’ code is used to generate the copyright symbol (©). As a best practice, it should be accompanied by a year and the name of the organization."
     },
     {
+        "id": 31,
         "topic": "intermediate HTML5",
         "question": "What is the role of DOCTYPE in HTML5?",
         "answer": "All HTML pages (HTML5 included) need to have their document type declared in the first line of code. DOCTYPE instructs the browser how to interpret the document by indicating what type and version of markup language are being used."
     },
     {
+        "id": 32,
         "topic": "intermediate HTML5",
         "question": "What are the different types of storage in HTML5?",
         "answer": "HTML5 supports two types of web storage. These are: <br><ul><li><b>sessionStorage:</b> temporary storage available for the duration of the page session</li><li><b>localStorage:</b> permanent storage available until data is deleted by the user</li></ul>"
     },
     {
+        "id": 33,
         "topic": "intermediate HTML5",
         "question": "What is metadata in HTML5 and how is it specified?",
         "answer": "Metadata is data that describes other data, providing additional information about an HTML document. Its purpose is to help browsers, search engines and other web applications better interpret a document. Examples of metadata include the description, author, and keywords."
     },
     {
+        "id": 34,
         "topic": "intermediate HTML5",
         "question": "What are the new tags for multimedia in HTML5?",
         "answer": "Unlike previous versions, HTML5 allows developers to create multimedia objects without the need for additional plugins. The new tags that facilitate this are: <br><ul><li><b>audio</b> - used to embed audio content</li><li><b>video</b> - used to embed video content</li><li><b>embed</b> - used to embed content from an external source</li><li><b>source</b> - used to embed multiple media resources</li><li><b>track</b> - used to specify text tracks (such as subtitles) for audio and video content</li></ul>"
     },
     {
+        "id": 35,
         "topic": "advanced HTML5",
         "question": "What are some of the main issues with HTML5?",
         "answer": "While HTML5 is an effective markup language, it can still pose problems to web developers. Some challenges include:<ul><li>New security threats associated with local storage</li><li>Advanced features are not necessarily supported by all browsers</li><li>Mobile compatibility requires additional coding</li><li>Its limited access to hardware APIs</li><li>Its steep learning curve</li></ul>"
     },
     {
+        "id": 36,
         "topic": "advanced HTML5",
         "question": "What are the best audio and video formats to use in HTML5?",
         "answer": "HTML5 supports MP3, Ogg, WebM, ADTS, FLAC, and WAV audio formats. A WAV file is uncompressed and typically large, making it unsuitable. Each browser supports its own set of audio formats; MP3 is the only audio format that is currently compatible with all major browsers.<br>In terms of video, HTML5 supports MP4, WebM, and Ogg formats. While MP4 is generally considered the recommended video format, not all browsers support it natively due to licensing issues. In these cases, WebM can be used as an alternative."
     },
     {
+        "id": 37,
         "topic": "advanced HTML5",
         "question": "How can HTML5 be used for data storage purposes?",
         "answer": "While HTML5 doesn’t include data storage functionality as part of its native specification, it’s possible to store data through the integration of data-related APIs. These can be used with HTML5 documents to manipulate client-side databases with SQL.<br>The two HTML5 APIs for data storage and querying are: <ul><li><strong>IndexedDB API</strong>, a standard maintained by the World Wide Web Consortium</li><li><strong>Web SQL Database</strong>, now considered deprecated</li></ul>"
     },
     {
+        "id": 38,
         "topic": "advanced HTML5",
         "question": "What is microdata in HTML5 and how is it created?",
         "answer": "<p>Microdata allows developers to define the custom semantics of elements and embed custom properties within the web page.&nbsp;</p><p>It’s used to provide browsers and search engines with more information about the contents of the web page so that they can display results that best match the user’s search intent.</p><p>Microdata is created using the &lt;itemscope&gt; element. Information about the item is then specified using the &lt;itemprop&gt; element.</p>"
     },
     {
+        "id": 39,
         "topic": "advanced HTML5",
         "question": "How is the Geolocation API implemented in HTML5?",
         "answer": "<p>The HTML5 Geolocation API uses the device’s GPS, WiFi or mobile signal to triangulate the user’s latitude and longitude coordinates. The user must give their permission before geolocation services can be used on their device.</p><p>From the developer’s point of view, the Geolocation API is implemented firstly by calling the geolocation.navigator object. Three methods are then used by the API to handle location data:</p><ol><li><strong>getCurrentPosition</strong> identifies the device’s current location and returns a position object withdata</li><li><strong>watchPosition</strong> returns a value whenever the device location changes</li><li><strong>clearWatch</strong> cancels the previous watchPosition call</li></ol>"
     },
     {
+        "id": 40,
         "topic": "advanced HTML5",
         "question": "What are some of the key global attributes in HTML5?",
         "answer": "<p>Global attributes are attributes that can be applied to all HTML5 elements. Some of the most important global attributes are:</p><ul><li><strong>accesskey</strong>, used to specify a keyboard shortcut for an element</li><li><strong>class</strong>, used to assign one or more class names to an element</li><li><strong>dir</strong>, used to specify the base direction of the element’s text</li><li><strong>data-*</strong>, used to store custom data specific to the web page&nbsp;</li><li><strong>contenteditable</strong>, used to indicate whether the content is editable or not</li></ul>"
     },
     {
+        "id": 41,
         "topic": "advanced HTML5",
         "question": "What is the role of the WebSocket API in HTML5?",
         "answer": "The WebSocket API facilitates two-way, interactive communication between the web browser and the web server. This enables a real-time, event-driven data transfer to and from the server. It’s a very popular API that brings speed, security, and flexibility."
     },
     {
+        "id": 42,
         "topic": "advanced HTML5",
         "question": "When should &lt;div&gt; tags be used in HTML5?",
         "answer": "<p>HTML5 introduces a number of new tags (such as &lt;aside&gt;, &lt;footer&gt;, and &lt;header&gt;) that take the place that &lt;div&gt; has traditionally occupied in previous HTML versions.</p><p>However, &lt;div&gt; should still be used in HTML5 when no other semantically appropriate element is available. Generally, this will be for styling purposes, such as wrapping the web page or introducing the opening paragraph.&nbsp;</p>"
     },
     {
+        "id": 43,
         "topic": "advanced HTML5",
         "question": "What is the role of the Web Workers API in HTML5?",
         "answer": "The Web Workers API makes it possible to run scripts independently in a background thread, separate from the main execution thread of the HTML5 document. This allows developers to continue working on the page without affecting its performance, while scripts run in the background."
     },
     {
+        "id": 44,
         "topic": "advanced HTML5",
         "question": "How can the performance of an HTML5 web page be measured?",
         "answer": "<p>Measuring performance is an important step for developers to gauge the competitiveness of their web page and can be achieved using APIs and extensions. Popular solutions include the Navigation Timing API and the User Timing API.&nbsp;</p><p>These tools provide insights into specific performance metrics such as:</p><ul><li><strong>Page load speed:</strong> The time it takes for the full page to load</li><li><strong>Time to interact:</strong> The time it takes for the user to be able to interact with the page</li><li><strong>Bounce rate:</strong> The proportion of users that leave the page without interacting with it</li><li><strong>Error rate:</strong> The proportion of visits to the page resulting in errors</li><li><strong>Conversion rate:</strong> The proportion of users that complete a specified action, such as subscribing to a mailing list</li></ul>"
     },
     {
+        "id": 45,
         "topic": "advanced HTML5",
         "question": "How can HTML5 web pages be optimized?",
         "answer": "<p>If a web page is performing poorly, developers have several HTML5 optimization strategies at their disposal:</p><ul><li>Compress CPU-intensive assets such as high-resolution images</li><li>Bundle code into single files to reduce the number of HTTP requests</li><li>Minify code to remove all unnecessary whitespace</li><li>Offload operations to the Graphics Processing Unit (GPU)</li><li>Use CSS3 for animations and transitions</li></ul>"
     },
     {
+        "id": 46,
         "topic": "javascript basic",
         "question": "What is lexical scope in JavaScript?",
         "answer": "A lexical scope in JavaScript means that a variable defined outside a function can be accessible inside another function defined after the variable declaration. But the opposite is not true; the variables defined inside a function will not be accessible outside that function."
     },
     {
+        "id": 47,
         "topic": "javascript basic",
         "question": "What is closure in JavaScript?",
         "answer": "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function."
     },
     {
+        "id": 48,
         "topic": "javascript basic",
         "question": "What is event bubble?",
         "answer": ""
     },
     {
+        "id": 49,
         "topic": "javascript basic",
         "question": "What are function declaration, function expression and   arrow function?",
         "answer": ""
     },
     {
+        "id": 50,
         "topic": "javascript basic",
         "question": "What are the differences among var, let and constant?",
         "answer": ""
     },
     {
+        "id": 51,
         "topic": "javascript basic",
         "question": "How does browser runs JavaScript?",
         "answer": ""
     },
     {
+        "id": 52,
         "topic": "javascript basic",
         "question": "How does Browser works?",
         "answer": ""
     },
     {
+        "id": 53,
         "topic": "javascript basic",
         "question": "What is the difference between HTTP and HTTPS?",
         "answer": ""
     },
     {
+        "id": 54,
         "topic": "javascript basic",
         "question": "Tell me something about JS engine V8 internal mechanism.",
         "answer": ""
     },
     {
+        "id": 55,
         "topic": "javascript basic",
         "question": "What is re-render in Browser?",
         "answer": ""
     },
     {
+        "id": 56,
         "topic": "javascript basic",
         "question": "What is event loop in JavaScript?",
         "answer": ""
     },
     {
+        "id": 57,
         "topic": "javascript basic",
         "question": "If JavaScript is single threaded, how does it handle asynchronous call?",
         "answer": ""
     },
     {
+        "id": 58,
         "topic": "javascript basic",
         "question": "What is SSL?",
         "answer": ""
     },
     {
+        "id": 59,
         "topic": "javascript basic",
         "question": "Differences between setTimeOut and setInterval.",
         "answer": ""
     },
     {
+        "id": 60,
         "topic": "javascript basic",
         "question": "What is Regular Expression?",
         "answer": ""
     },
     {
+        "id": 61,
         "topic": "javascript basic",
         "question": "What is the difference between an alert box and a confirmation box?",
         "answer": ""
     },
     {
+        "id": 62,
         "topic": "javascript basic",
         "question": "What are JavaScript Cookies?",
         "answer": ""
     },
     {
+        "id": 63,
         "topic": "javascript basic",
         "question": "Differences between localStorage and sessionStorage?",
         "answer": ""
     },
     {
+        "id": 64,
         "topic": "javascript basic",
         "question": "What should you use cookie or local storage or session storage?",
         "answer": ""
     },
     {
+        "id": 65,
         "topic": "javascript basic",
         "question": "Tell me 2 differences between DOM vs BOM.",
         "answer": ""
     },
     {
+        "id": 66,
         "topic": "javascript basic",
         "question": "Can you discuss the type of browser API?",
         "answer": ""
     },
     {
+        "id": 67,
         "topic": "javascript basic",
         "question": "What is JavaScript in one line?",
         "answer": ""
     },
     {
+        "id": 68,
         "topic": "javascript basic",
         "question": "What is a call stack?",
         "answer": ""
     },
     {
+        "id": 69,
         "topic": "javascript basic",
         "question": "Tell us about Try-catch?",
         "answer": ""
     },
     {
+        "id": 70,
         "topic": "javascript basic",
         "question": "Refere some console APIs.",
         "answer": ""
     },
     {
+        "id": 71,
         "topic": "javascript basic",
         "question": "What is syntax error?",
         "answer": ""
     },
     {
+        "id": 72,
         "topic": "javascript basic",
         "question": "When do we get reference error?",
         "answer": ""
     },
     {
+        "id": 73,
         "topic": "javascript basic",
         "question": "What is wrong with the code: var foo; console.log(foo.bar); (a) What type of error will the code generate? (b) What is the correct way to write the code?",
         "answer": ""
